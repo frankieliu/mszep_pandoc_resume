@@ -3,7 +3,7 @@ Frankie Liu
 
 <div style="text-align:center">
 
-frankie.y.liu@gmail.com $.$ (650) 269-3063 $.$ [LinkedIn](https://linkedin.com/in/frankieyliu)
+frankie.y.liu@gmail.com $|$ (650) 269-3063 $|$ [LinkedIn](https://linkedin.com/in/frankieyliu)
 
 </div>
 
@@ -17,11 +17,11 @@ Summary
 Technical Skills
 ----------------
 
-ML/Deep Learning
-: PyTorch, TensorFlow, sciki-learn, Hugging Face, Keras
+ML
+: PyTorch, TensorFlow, scikit-learn, Hugging Face, Keras
 
 NLP
-: BERT, RAG, Transformers, text summarization, embeddings
+: Transformers, BERT, RAG, summarization, embedding models
 
 CV
 : CNNs, U-Net, segmentation, DenseNet
@@ -30,42 +30,43 @@ Deployment
 : Vertex AI, Docker, Kubernetes, Airflow, ML pipelines, Ray, Spark
 
 Programming
-: Python, Java/Guice, Scala, C, Php, Typescript/React, SQL
+: Python, Java (Guice), Scala, C, PHP, Typescript/React, SQL
 
-Education and Career
---------------------
+Experience
+----------
 
-**Staff SW Engineer, Google, CA (2020 - present)**
+**Staff Software Engineer, Google, CA (2020 -- present)**
 
-Led initiatives to optimize delivery and operational efficiency across Google's global data center infrastructure, resulting in multi-million dollar cost savings.
+Led initiatives to improve operational efficiency across Google's global data center infrastructure, resulting in multi-million dollar cost savings.
 
-- Designed and deployed a cross-service telemetry platform, enabling real-time anomaly detection and reducing debugging latency by >10x
-- Built a system for multi-dimensional data aggregation and ML-assisted root cause analysis, cutting investigation time from weeks to days
-- Developed a Retrieval Augmented Generation (RAG) system using LLMs to accelerate support ticket triage, significantly reducing on-call toil
+- Designed and deployed a cross-service telemetry platform for real-time anomaly detection, reducing debugging latency by 10x.
+- Built a system for multi-dimensional data aggregation and ML-assisted root cause analysis, cutting investigation time from weeks to days.
+- Built a RAG LLM-based system to automate triage of support tickets, significantly reducing on-call toil and manual load.
 
-**Member of Technical Staff SW Engineer, Oracle (2010 - 2020)**
+**Member of Technical Staff Software Engineer, Oracle (2010 -- 2020)**
 
-Worked on early-stage automation for hardware systems, later transitioning into data-drive design optimization and machine learning applications.
+Worked across automation, hardware optimization, and ML systems to improve design and operational workflows.
 
-- Automated analog circuit generation at 10nm using ML-inspired design rules, improving performance by >10% and shortening product cycles by ~3.5 weeks
-- Initiated internal tools integrating simulation data and optimizing models for faster HW design feedback loops
-<!-- - Designed and taped out SerDes and optical interconnects for commercial CPUs, achieving 40Gbps/channel and 10pJ/bit/channel respectively -->
+- Automated analog circuit generation at 10nm using ML-based design rules, improving performance by >10% and reducing product cycles by ~3.5 weeks.
+- Built internal tools integrating simulation data to accelerate feedback loops for hardware design and verification.
 
-**PhD EE, Stanford University, CA**
+**PhD in Electrical Engineering, Stanford University, CA**
 
-Reserach: Sub-atomic imaging of carrier in semiconductors using advanced microscopy
+Focus: Sub-atomic imaging of carriers in semiconductors using advanced microscopy.
 
-Selected ML Projects
---------------------
+Projects & Publications
+-----------------------
 
 * **Image Segmentation for Root Detection**:
-  Built and trained a U-Net based segmentation model for identifying fine grain root structures.  Achieved 95% Dice coefficient, reducing manual annotation time from hrs to seconds per image. Published in [AGU](https://ui.adsabs.harvard.edu/abs/2020AGUFMB074...05T), [New Phytologist](https://nph.onlinelibrary.wiley.com/doi/epdf/10.1111/nph.18031)
+  Developed a U-Net-based segmentation model (PyTorch) for identifying fine-grained root structures. Achieved 95% Dice coefficient, cutting manual annotation time from hours to seconds per image. Published in [AGU](https://ui.adsabs.harvard.edu/abs/2020AGUFMB074...05T), [New Phytologist](https://nph.onlinelibrary.wiley.com/doi/epdf/10.1111/nph.18031).
 
-* **Satellite Image Classication Pipeline**:
-  Built a ML pipelines (preprocessing, augmentation) for classifying satelite imagery using DenseNet architecture, achieving 97% classification accuracy. [[pub](https://arxiv.org/abs/2207.11166)]
+* **Satellite Image Classification Pipeline**:
+  Built an ML pipeline for satellite image classification using DenseNet, including preprocessing and augmentation. Achieved 97% classification accuracy. [[arXiv](https://arxiv.org/abs/2207.11166)].
 
 * **Scalable NLP Pipeline for Content Summarization and Tagging**:
-  Designed and deployed an NLP pipeline using BERT for summarization and classification.Optimized for production with scalable inference, serving ~1000 queries/day and improving content moderation speed by 40%
+  Designed and deployed a scalable BERT-based NLP pipeline for content summarization and tagging, serving approximately 1,000 queries/day. Improved content moderation throughput by 40% and reduced manual review workload.
+
+<!-- - Designed and taped out SerDes and optical interconnects for commercial CPUs, achieving 40Gbps/channel and 10pJ/bit/channel respectively -->
 
 <!-- >
 ### **Publications**
